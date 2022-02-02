@@ -21,7 +21,7 @@ let package = Package(
             .product(name: "NIOConcurrencyHelpers", package: "swift-nio"),
             .product(name: "NIOHTTP1", package: "swift-nio"),
             .product(name: "NIOWebSocket", package: "swift-nio"),
-            .product(name: "NIOTransportServices", package: "swift-nio-transport-services"),
+            .product(name: "NIOTransportServices", package: "swift-nio-transport-services")
         ]),
         .testTarget(name: "MQTTNIOTests", dependencies: ["MQTTNIO"]),
     ]
